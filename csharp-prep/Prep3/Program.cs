@@ -2,6 +2,7 @@ using System;
 
 class Program{
     static void Main(string[] args){
+        // adding this commment to see if it shows up in git hub
         Random randomGenerator = new Random();
         int randomNum = randomGenerator.Next(1, 101);
         int guess = -1;
